@@ -4,9 +4,9 @@
       "module": "commonjs"
     }
   },
-  "compilerOptions": {
+ "compilerOptions": {
     "target": "ES6",
-    "module": "ESNext",
+    "module": "CommonJS",                // ✅ Change this
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
