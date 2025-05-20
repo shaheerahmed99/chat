@@ -14,6 +14,9 @@ const app = express();
 
 connectDB();
 
+app.set('trust proxy', true);
+
+
 const limiter = rateLimit({
   windowMs: 1 * 60 * 1000,
   max: 15,
